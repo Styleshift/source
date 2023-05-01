@@ -247,7 +247,7 @@ h1, .tagP, .tag, .button2Wrapper {
 }
 
 .headerRight {
-    background-image: url("/img/cell.png");
+    background-image: url("../img/cell.png");
     background-position: right;
     background-size: 100%;
     background-repeat: no-repeat;
