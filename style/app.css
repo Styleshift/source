@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*** Erase Me Later ***/
+
+nav, header, section, .headerLeft, .headerRight {
+    border: 2px solid black;
+}
+
+
+/*** Layout ***/
+
+nav {
+    height: 10dvh;
+}
+
+header {
+    height: 90vh;
+}
+
+section {
+    height: 25dvh;
+}
+
+.headerLeft, .headerRight {
+    height: 100%;
+}
+
+.headerLeft {
+    float: left;
+    width: 45%;
+}
+
+.headerRight {
+    float: right;
+    width: 55%;
+}
+
+section {
+    clear: both;
+}
+
+/*** Flex Box ***/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*** Content ***/
+
+a {
+    text-decoration: none;
+    color: #284457;
+    cursor: pointer;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 20px;
+}
+
+h3 {
+    margin-left: 100px;
+    color: #284457;
+}
+
+.navButton {
+    text-decoration: none;
+            border: none;
+            padding: 12px 40px;
+            font-size: 16px;
+            background-color: #284457;
+            color: white;
+            border-radius: 0px;
+            box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+            cursor: pointer;
+            outline: none;
+            transition: 0.2s all;
+            margin-right: 100px;
+}
+
+.navButton:active {
+    transform: scale(0.98);
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.cellImg {
+    height: 100%;
+    width: 100%;
+}
