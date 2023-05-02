@@ -322,8 +322,10 @@ h6 {
         display: none;
     }
 
-    #check:checked > .mobileLinks {
-        visibility: visible;
+    .mobileLinks {
+        display: none;
+        background-color: #e1eaf0;
+        margin: 20px;
     }
 
 
