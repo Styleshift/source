@@ -96,6 +96,7 @@ div {
 }
 
 
+
 /*** Content ***/
 
 a {
@@ -290,7 +291,9 @@ h6 {
     visibility: hidden;
 }
 
-
+.mobileLinks {
+    display: none;
+}
 
 /*** Media Queries ****/
 
