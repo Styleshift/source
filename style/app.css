@@ -276,16 +276,34 @@ h4:hover {
     color: skyblue;
 }
 
+.checkbtn {
+    font-size: 30px;
+    color: #284457;
+    cursor: pointer;
+}
+
 /* .button2 {
     margin-left: 0;
 } */
 
 /*** Media Queries ****/
 
+@media screen and (min-width: 596px) {
+    .checkbtn, #check {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 596px) {
     .middle, .bottom, ul , .navButton {
         display: none;
     }
+
+   
+    #check {
+        display: none;
+    }
+
 
     nav , .navButton, .navh2 {
         margin: 0;
@@ -293,9 +311,13 @@ h4:hover {
     }
 
     nav {
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         border-bottom: 1px solid #d8e1e9;
+    }
+
+    h6 {
+        visibility: hidden;
     }
 
     .tag , h1, .tagP {
