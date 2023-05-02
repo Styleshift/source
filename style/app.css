@@ -450,3 +450,33 @@ h6 {
         display: none;
     }
 }
+
+@media screen and (min-width: 800px) and (min-height: 1280px) {
+    header {
+       height: 600px;
+    }
+
+    .tag {
+        margin-top: 125px;
+    }
+
+    .featureMargin, .collectH1, .collectP {
+        margin-left: 20px;
+    }
+
+    .collectP {
+        font-size: 14px;
+    }
+
+    .middle {
+        height: 350px;
+    }
+
+    .bottom {
+        height: 200px;
+    }
+
+    #adjust {
+        margin-top: 34px;
+    }
+}
