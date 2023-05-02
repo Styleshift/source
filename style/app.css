@@ -279,3 +279,80 @@ h4:hover {
 /* .button2 {
     margin-left: 0;
 } */
+
+/*** Media Queries ****/
+
+@media screen and (max-width: 596px) {
+    .middle, .bottom, ul , .navButton {
+        display: none;
+    }
+
+    nav , .navButton, .navh2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #d8e1e9;
+    }
+
+    .tag , h1, .tagP {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headerLeft, .headerRight {
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 100%;
+        align-self: flex-start;
+        margin-top: 15px;
+    }
+
+    input {
+        width: 350px;
+        height: 50px;
+    }
+
+    .button2Wrapper {
+        margin: 0px;
+        padding: 0px;
+        height: 40px;
+        width: 200px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .button3 {
+        width: 350px;
+        margin: 10px;
+        height: 40px;
+    }
+
+    .tagP, h1, span {
+        margin-top: 5px;
+    }
+
+    .tagP {
+        margin-top: 40px;
+    }
+ 
+}
