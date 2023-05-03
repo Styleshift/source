@@ -34,7 +34,7 @@ function init() {
     }
 } */
 
-const matchResult = window.matchMedia("(min-width: 600px)");
+/* const matchResult = window.matchMedia("(min-width: 600px)");
 
 //console.log(matchResult)
 
@@ -43,4 +43,4 @@ function isSmallScreen() {
         return true;
 }   return false;
 
-}
+} */

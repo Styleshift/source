@@ -450,9 +450,10 @@ h6 {
     }
 } 
 
-@media screen and (min-width: 1000px) {
-    h6 {
-        display: none;
+@media screen and (min-width: 597px) {
+    .mobileLinks {
+        position: fixed;
+        left: -1000px;
     }
 }
 
